@@ -14,6 +14,8 @@ assets on it. For sure everything could be done better but the balance is import
 I wuold have divided the player way more. An input controller, a movement controller etc. This way there would not be a "player". There would be a "runner" and it would get the commands from input or from a AI or even from the internet in multiplayer mode.
 So we could instantiate N number of runners and the game would not break, It would scalate perfectly. But didnt have the time :-(
 
+Alse the route generator. I would have used nice splines so we could make nice curves etc. The track chunks would have the anchors on them so It wouldn't be a terrible list with transforms. 
+
 The camera control. Right now is quite dull. I had already in mind that when reaching a checkpoint an event with an offset and rotation would be sent to the listeners. And the camera would be listening so it would update the offset and rotation
 The values would be simple monobehaviours attached to the checkpoints. This is not the best way at all, but 5 hours is not enough to do it perfect :-)
 
