@@ -1,0 +1,2 @@
+Simply presh the left click of the mouse and keep it preshed to advance with the player.
+When left click is released the player will stop until preshed left click again
